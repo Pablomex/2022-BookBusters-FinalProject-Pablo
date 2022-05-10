@@ -1,0 +1,15 @@
+%syntax-version=1.0.0
+%project=bookbusters
+
+init 2022-03-30T09:33:06Z elodie.faivre <elodie.faivre3@gmail.com> # creation des tables
+username-field 2022-03-30T18:00:51Z System Administrator <root@Copain-MiniMac.local> # add a username field into user table
+lowercase-isbn 2022-03-31T08:47:36Z System Administrator <root@Copain-MaxiBook.local> # modify isbn columns name in lowercase
+book_in_donation 2022-03-31T11:19:52Z elodie.faivre <elodie.faivre3@gmail.com> # create view book in donation
+userlists-views 2022-04-01T13:08:47Z System Administrator <root@Copain-MaxiBook.local> # Views for lists of users (library, favorite, alert)
+around-me 2022-04-06T11:59:55Z elodie.faivre <elodie.faivre3@gmail.com> # function sql to search books around me
+big-swiss-knife-function 2022-04-11T17:15:09Z System Administrator <root@Copain-MiniMac.local> # Add a SQL function to get and filter books with all users data
+remove-formatted-isbn 2022-04-12T17:54:11Z System Administrator <root@Copain-MiniMac.local> # remove unused column isbn13_formatted and isbn10_formatted in the table book
+account_activation 2022-04-12T13:10:41Z ju <dupont.julien@gmail.com> # Adding of a field in the user table regarding the activation of the account via an email after the signup process
+postalcommunecode 2022-04-15T14:03:39Z ju <dupont.julien@gmail.com> # ajout des colonnes postal et commune code
+commune-field 2022-04-20T07:25:28Z ju <dupont.julien@gmail.com> # adding of the commune_name column in user
+add_commune_name_in_big_function 2022-04-20T14:22:10Z elodie.faivre <elodie.faivre3@gmail.com> # modif big function to add commmune_name

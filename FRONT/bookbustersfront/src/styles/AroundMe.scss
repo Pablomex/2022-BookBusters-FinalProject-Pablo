@@ -1,0 +1,14 @@
+#map {
+  height: 70vh;
+}
+.leaflet-container {
+  height: 100%;
+}
+
+.bookMap {
+  display: flex;
+  margin: 1%;
+  & div {
+    margin-left: 1%;
+  }
+}

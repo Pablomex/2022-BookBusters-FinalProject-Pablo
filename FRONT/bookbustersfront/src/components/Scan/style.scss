@@ -1,0 +1,31 @@
+#reader {
+    border-radius: 0 0 5px 5px;
+    border-color: #7e8c95 !important;
+}
+
+#reader > div:first-of-type {
+    display: none !important;
+}
+
+@media (max-width: 620px) {
+    #scanner,
+    #reader,
+    #reader video,
+    #reader #reader__scan_region {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 620px) {
+    #scanner,
+    #reader,
+    #reader video,
+    #reader #reader__scan_region {
+        width: 600px !important;
+    }
+
+    #reader video,
+    #reader #reader__scan_region {
+        width: 598px !important;
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "bookbusters-devparts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "DEBUG=*,-express:*,-nodemon*,-node-dev*,-body* node-dev index.js --no-notify",
+    "data": "DEBUG=*, node ./data/import-data.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pololops/BookBusters-devParts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pololops/BookBusters-devParts/issues"
+  },
+  "homepage": "https://github.com/Pololops/BookBusters-devParts#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bunyan": "^1.8.15",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-jsdoc-swagger": "^1.6.7",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^2.6.7",
+    "nodemailer": "^6.7.3",
+    "pg": "^8.7.3",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  }
+}
