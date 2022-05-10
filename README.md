@@ -35,6 +35,7 @@ Made on mobile first, entirely responsive.
 - Nodemailer
 - Joi
 - ESLint
+- JSDoc Swagger
 
 **Front** 
 
